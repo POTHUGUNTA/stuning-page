@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+
+}
+.logo {
+    width: 200px;
+}
+nav {
+    display: flex;
+    column-gap: 40px;
+}
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: gray;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    transition: border-bottom .3s;
+}
+nav a:hover {
+    border-bottom: 2px solid blue;
+    color: red;
+    font-weight: bold;
+
+}
+.button {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    color: blue;
+    background-color: pink;
+    border-radius: 100px;
+    padding: 15px 20px;
+    transition: border .3s;
+}
+.button:hover {
+   background-color: rgb(244, 190, 199);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    position: absolute
+    
+    padding-top: 10px;
+}
+.heading{
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+}
+span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: blue;
+    padding-top: 50px;
+
+}
+.para{
+    font-size: 20px;
+    color: gray;
+    padding-top: 30px;
+}
+.bcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+}
+.abutton{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 100px;
+    padding: 20px 50px;
+}
+.abutton:hover {
+    background-color: rgb(89, 89, 242);
+ }
+.imgcontainer{
+    display: flex;
+    
+  
+}
+.simg{
+    padding-top: 80px;
+    padding-right: 25px;
+}
+.tcontainer{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+}
+.imgtick{
+    padding: 10px 0px;
+
+}
+.name{
+    padding: 10px 10px;
+}
+.color{
+    padding: 10px 10px;
+}
+.date{
+    padding: 10px 10px;
+}
+.boxp{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: pink;
+    border: 1px solid pink;
+}
+.boxr{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 88, 88);
+    border: 1px solid rgb(252, 150, 150);
+}
+.boxg{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(122, 252, 122);
+    border: 1px solid rgb(150, 255, 150);
+}
+.boxy{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(251, 251, 102) ;
+    border: 1px solid rgb(255, 255, 110) ;
+}
+.bgc1, .bg3, .bg4{
+   background-color: white;
+   
+}
+.bgc2{
+    background-color: whitesmoke;
+}  
